@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    
+    <form action="/" method="get">
+        <div>
+            <label for="sexo">Sexo:</label><br>
+            <span> Hombre </span>
+            <input type="radio" name="hombre" value="hombre">
+            <span> Mujer </span>
+            <input type="radio" name="hombre" value="hombre">
+        </div>
+        <br>
+        <div>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre" placeholder="Nombre">
+        </div>
+        <br>
+        <div>
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" name="apellido" placeholder="apellido">
+        </div>
+        <br>
+        <div>
+            <label for="talle">Talle:</label>
+            <select name="talle" id="talle">
+                <option value="Large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+            </select>
+        </div>
+    <br>
+        <div>
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+        </div>
+    
+    </form>
+
+</body>
+</html>
