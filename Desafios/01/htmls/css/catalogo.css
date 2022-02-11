@@ -1,0 +1,50 @@
+main{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+main aside{
+    background: rgba(191, 240, 233, 0.6);
+    margin-right: 30px;
+    padding: 20px 35px;
+    border-radius: 5px;
+    width: 18%;
+}
+
+main aside div{
+    margin-bottom: 20px;
+}
+
+main aside ul li{
+    list-style: none;
+    padding: 2px 0;
+}
+
+main aside ul li a, main aside ul li a:visited{
+    color: rgb(160, 160, 160);
+}
+
+main section{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main section a, main section a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+main section div a div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px ;
+}
