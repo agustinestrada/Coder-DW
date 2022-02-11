@@ -42,20 +42,20 @@
 
     <main>
        
-        <section>
-            <div>
+        <section class="columna1">
+            <div class="producto">
                 <div>
-                    <img src="img/sacacorchos-olivivi.webp" width=600px" height=600px" alt="">
+                    <img src="img/sacacorchos-olivivi.webp" class="img-ppal" alt="">
                 </div>
-                <div>
-                    <img src="img/sacacorchos-de-flauno.webp" width=100px" height=100px" alt="">
-                    <img src="img/sacacorchos-hyindoor.jpg" width=100px" height=100px" alt="">
-                    <img src="img/sacacorcho-profesional-aidodo-300x300.jpg" width=100px" height=100px" alt="">
+                <div class="imagenes">
+                    <img src="img/sacacorchos-de-flauno.webp" class="thumbnails" alt="">
+                    <img src="img/sacacorchos-hyindoor.jpg" class="thumbnails" alt="">
+                    <img src="img/sacacorcho-profesional-aidodo-300x300.jpg" class="thumbnails" alt="">
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="columna2">
             <div>
                 <p><b>Sacacorchos Electrico Premium</b></p>
                 <p><em>$5000</em></p>    
@@ -63,36 +63,34 @@
 
             <div>
                 <form action="" method="get">
-                    <div>
-                        <label for="tamano"><b>Color</b></label>
-                        <div>
-                            <span>Rojo</span><input type="radio" name="tamano" id="tamano" value="Rojo">
-                            <span>Negro</span><input type="radio" name="tamano" id="tamano" value="Negro">
-                            <span>Blanco</span><input type="radio" name="tamano" id="tamano" value="Grande">
-                        </div>
-                    </div>
+					<label for="tamano"><b>Color</b></label>
+					<div>
+						<span>Rojo</span><input type="radio" name="tamano" id="tamano" value="Rojo">
+						<span>Negro</span><input type="radio" name="tamano" id="tamano" value="Negro">
+						<span>Blanco</span><input type="radio" name="tamano" id="tamano" value="Grande">
+					</div>
+                   
+					<label for="cantidad"><b>Cantidad</b></label>
+					<select name="cantidad" id="cantidad">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+					</select>
 
-                    <div>
-                        <label for="cantidad"><b>Cantidad</b></label>
-                        <select name="cantidad" id="cantidad">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                        </select>
-                    </div>
-
-					<input type="submit" name="submit" id="submit" value="Comprar Ahora">
-					<input type="button" name="carrito" id="carrito" value="Agregar al Carrito">
-
+					<div class="botones">
+						<input type="submit" name="submit" class="btn" id="submit" value="Comprar Ahora">
+						<input type="button" name="carrito" class="btn" id="carrito" value="Agregar al Carrito">	
+					</div>
+					
                 </form>
 
             </div>
         </section>
 
-		<section>
+		<section class="descripcion">
 			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas obcaecati ad est tenetur earum, eveniet eos ducimus architecto blanditiis laudantium consectetur placeat minima consequatur a quia unde dolorum harum vero enim nostrum fugiat cum! Rerum, aliquam et. Reiciendis perferendis assumenda quos facere id deserunt quasi neque obcaecati veritatis repellendus, harum delectus corrupti saepe eligendi reprehenderit, fugiat adipisci voluptate amet nam? Fugit laboriosam iure ea consectetur aliquam reiciendis. Doloribus ab voluptates similique quasi dolores, officia atque maxime odit molestiae obcaecati nihil? Fugit, consequatur iure! Quia deleniti nam amet explicabo neque vitae minima voluptatem voluptate est ipsa. Illo atque id ut corporis.</p>
 		</section>
 
