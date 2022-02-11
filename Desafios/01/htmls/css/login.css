@@ -1,0 +1,53 @@
+main{
+    width: 15%;
+    margin: 50px auto;
+
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main form div.check{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.check{
+    display: flex;
+    align-self: flex-start;
+    margin: 10px 0;
+}
+
+main form div input{
+    width: 85%;
+    margin: 20px 0;
+    border: none;
+    border-bottom: solid 1px black;
+    font-size: 20px;
+}
+
+.btn{
+    justify-self: center;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: inherit;
+}
+
+.recordame{
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    margin-left: 8px;
+}

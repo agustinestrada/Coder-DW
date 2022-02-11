@@ -1,0 +1,33 @@
+main{
+    width: 50%;
+    margin: 50px auto;
+   
+}
+
+main form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main form div{
+    width: 45%;
+}
+
+main form div input{
+    width: 85%;
+    margin: 20px 0;
+    border: none;
+    border-bottom: solid 1px black;
+    font-size: 20px;
+}
+
+.btn{
+    justify-self: center;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: inherit;
+}

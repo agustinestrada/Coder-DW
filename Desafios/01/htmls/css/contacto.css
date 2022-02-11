@@ -1,0 +1,59 @@
+body{
+    background-image: url('../img/bg\ contacto.jpg');
+
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    width: 40%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(244, 237, 229, 0.66);
+}
+
+input{
+    border: none;
+    border-bottom: solid 1px black;
+    width: 90%;
+    margin: 10px auto ;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 90%;
+}
+
+.btn{
+    width: inherit;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 10px;
+}
+
+form div{
+    display: flex;
+    align-items: center;
+}
+
+form div input{
+   margin: 0;
+   padding: 0;
+   width: 5%;
+}
+
+span{
+    margin-right: 10px;
+}
+
+label{
+    width:80%;
+}
