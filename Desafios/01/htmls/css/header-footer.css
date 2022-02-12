@@ -40,12 +40,14 @@ header div nav ul li a:hover{
     flex-direction: row;
     align-items: center;
     border-right: 2px solid white;
+    padding-right: 15px;
 }
 
 .nav2{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-right: 15px;
 }
 
 header div{
@@ -62,11 +64,6 @@ header div nav ul li{
     padding-left: 0;
     font-size: 30px;
 }
-
-/* MAIN --------------------------------*/
-
-
-
 
 /* FOOTER --------------------------------*/
 

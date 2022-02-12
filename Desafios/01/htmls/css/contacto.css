@@ -18,19 +18,19 @@ form{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    background-color: rgba(244, 237, 229, 0.66);
+    background-color: rgba(244, 237, 229, 0.6);
+    padding: 20px 0;
 }
 
 input{
     border: none;
-    border-bottom: solid 1px black;
-    width: 90%;
+    width: 70%;
     margin: 10px auto ;
     border-radius: 5px;
 }
 
 textarea{
-    width: 90%;
+    width: 70%;
 }
 
 .btn{
